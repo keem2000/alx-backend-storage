@@ -1,4 +1,5 @@
--uteAverageScoreForUser that computes and store the average score for a student
+-- 7. Average score
+--  creates a stored procedure ComputeAverageScoreForUser that computes and store the average score for a student
 DROP PROCEDURE IF EXISTS ComputeAverageScoreForUser;
 DELIMITER $$
 CREATE PROCEDURE ComputeAverageScoreForUser(
